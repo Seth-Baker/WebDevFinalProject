@@ -1,0 +1,80 @@
+.common {
+    border: 2px tan;
+    position: absolute;
+}
+a:visited {
+    color: blue;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 300px;
+    z-index: 2;
+    border-bottom: solid 1px black;
+    background-image: url(../assets/img/seattle_skyline_sunset.jpeg);
+    background-size: cover;
+    background-position: center -100px;;
+}
+.leftmenu {
+    top: 307px;
+    left: 5px;
+    width: 183px;
+    bottom: 39px;
+    padding-top: 40px;
+    position: fixed;
+}
+.mainbody {
+    top: 307px;
+    left: 190px;
+    right: 231px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+.rightmenu {
+    top: 307px;
+    right: 5px;
+    width: 195px;
+    bottom: 39px;
+    padding-left: 30px;
+    position: fixed;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: aqua;
+    text-align: center;
+    padding-top: 5px;
+    position: fixed;
+}
+.subheader {
+    float: right;
+}
+.video-container {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+}
+.style1 {
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.style2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.style3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.style4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
